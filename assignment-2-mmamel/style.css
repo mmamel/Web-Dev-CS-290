@@ -1,0 +1,165 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Melvin Ma
+ * email: mamel@oregonstate.edu
+ */
+header{
+  display:block;
+  background-color: #000;
+}
+main{
+  display:flex;
+}
+img{
+  max-width: 90%;
+    max-height: 100%;
+    margin:5%;
+}
+.header-image-container{
+  display:inline-block;
+}
+.site-title{
+  display:inline-block;
+  margin:0px;
+  /*position: relative;*/
+}
+a{
+  font-family: Roboto Slab;
+  color: #fff;
+  text-decoration: none;
+  font-size: 70px;
+  font-weight: 100;
+}
+.result-title:hover{
+  text-decoration: underline;
+}
+a.result-title{
+  font-size: 10px;
+}
+.filter-container{
+  position: static;
+  display:inline-block;
+  background-color: #eee;
+  width: 240px;
+  height: 360px;
+  margin: 0;
+  padding: 20px;
+  margin-right:30px;
+
+}
+.filter-input-container{
+  padding-bottom: 10px;
+  width: 200px;
+}
+.filter-input-label {
+  display: inline-block;
+  background-color: #fff */
+  /* float: left; */
+}
+.filter-input-element{
+  display: inline-block;
+  padding-right: 10px;
+  /* padding-left: 10px; */
+}
+.filter-input{
+  display: inline-block;
+  width: 60px;
+
+}
+
+#filter-text{
+  padding-right:0px;
+  display: inline-block;
+  width: 150px;
+}
+#filter-city{
+  width: 150px;
+}
+.action-button{
+  display: block;
+  width:200px;
+  font-family: Roboto Slab;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  height: 50px;
+  text-align: center;
+}
+
+.action-button:hover{
+  background-color: #f3d0b5;
+  color: #000;
+}
+#sell-something-button{
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f67811;
+  color:#fff;
+  border: 1px solid #fff;
+  font-size: 30px;
+}
+#sell-something-button:hover{
+  width: 85px;
+  height: 85px;
+}
+#results{
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.result-contents{
+  display:block;
+  height: 400px;
+  width: 450px;
+  border-width:1px;
+  border-color: #eee;
+  border-style: solid;
+  margin: 10px;
+
+  /* flex: 1 400px; */
+}
+.result-image-container {
+  display:block
+
+}
+.result-info-container{
+  display:block;
+  position: relative;
+  top: 30px;
+  left: 20px;
+
+}
+a.result-title{
+  font-family: Roboto;
+  font-size: 18px;
+  color: #f67811;
+  font-weight: 600;
+  display:inline-block;
+  margin-right:10px;
+}
+.result-city{
+  display:inline-block;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.result-price{
+  margin-right:10px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  min-width: 35px;
+  height: 15px;
+  background-color: #eee;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+
+}
